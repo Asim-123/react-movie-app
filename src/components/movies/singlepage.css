@@ -1,0 +1,32 @@
+.singlepage {
+  margin-top: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  width: 80%;
+  font-size: 1.2rem; /* use rem for font size */
+  line-height: 1.5; /* use unitless value for line height */
+}
+
+@media (max-width: 768px) {
+  .singlepage {
+    height: auto; /* change height to auto for smaller screens */
+    padding: 20px;
+  }
+  
+  p {
+    width: 100%; /* change width to 100% for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 1rem; /* decrease font size for smaller screens */
+    line-height: 1.3; /* decrease line height for smaller screens */
+  }
+}

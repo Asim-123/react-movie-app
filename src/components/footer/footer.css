@@ -1,0 +1,25 @@
+.footer {
+  background-color: #1d1d1d;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.footer h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}

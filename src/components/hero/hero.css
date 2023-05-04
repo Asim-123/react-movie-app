@@ -1,0 +1,46 @@
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1558382722-9d492d34bcfd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9');
+  background-size: cover;
+  background-position: center;
+  padding: 5vw; /* use vw for padding */
+  text-align: center;
+}
+
+.hero input[type="search"] {
+  padding: 1.5vw; /* use vw for padding */
+  font-size: 1.5vw; /* use vw for font size */
+  width: 60%;
+  max-width: 500px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.hero button {
+  margin-left: 1vw; /* use vw for margin */
+  padding: 1.5vw 3vw; /* use vw for padding */
+  font-size: 1.5vw; /* use vw for font size */
+  background-color: #f1c40f;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero button:hover {
+  background-color: #e0b900;
+}
+
+@media screen and (max-width: 768px) {
+  .hero input[type="search"] {
+    width: 100%;
+    border-radius: 0; /* remove border radius */
+  }
+  
+  .hero button {
+    margin-left: 0; /* remove margin */
+    padding: 1.5vw; /* use vw for padding */
+    border-radius: 0.25rem;
+  }
+}
+
